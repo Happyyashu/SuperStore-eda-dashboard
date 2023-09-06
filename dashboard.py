@@ -18,7 +18,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\harpr\Downloads\pythonProject\Dashboard-streamlit")
+    # os.chdir(r"C:\Users\harpr\Downloads\pythonProject\Dashboard-streamlit")
     df = pd.read_csv("superstore.csv", encoding="ISO-8859-1")
 
 # creating columns
